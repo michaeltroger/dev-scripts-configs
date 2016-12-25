@@ -1,0 +1,7 @@
+[user]
+	name = Michael Troger
+	email = michaeltroger@users.noreply.github.com
+[color]
+	ui = true
+[core]
+	autocrlf = false
