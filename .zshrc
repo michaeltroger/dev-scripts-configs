@@ -55,6 +55,7 @@ plugins=(git git-flow npm sublime vscode atom)
 
 # export PATH="/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
+export PATH=~/Android/Sdk/platform-tools:$PATH
 
 source $ZSH/oh-my-zsh.sh
 
