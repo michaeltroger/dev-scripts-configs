@@ -7,5 +7,5 @@ FOLDER=$1
 
 for file in $FOLDER*
 do
-  tr -d '"' < $file > $file"_octave.csv"
+  tr -d '"' < $file > $file"_clean.csv"
 done
