@@ -49,7 +49,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git git-flow npm sublime vscode atom)
+plugins=(git git-flow npm sublime vscode atom autojump)
 
 # User configuration
 
@@ -85,3 +85,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias o="xdg-open"
 alias c="visual-studio-code"
+
+[[ -s /home/m/.autojump/etc/profile.d/autojump.sh ]] && source /home/m/.autojump/etc/profile.d/autojump.sh
+autoload -U compinit && compinit -u
